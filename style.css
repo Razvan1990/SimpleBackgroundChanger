@@ -1,0 +1,68 @@
+h2 {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    
+}
+
+h4{
+    font-size: 1.,5em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left:75px;
+}
+/*the color here will be with white to not be present at the beginning*/
+h4.bold-color{
+    font-size: 1.,5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    width: 20%;
+    text-align:left;
+    color: #fff;
+}
+#yellow
+{
+    color: #000;
+}
+#red{
+    background-color:red;
+}
+#blue{
+    background-color:blue;
+}
+#green{
+    background-color:green;
+}
+#yellow{
+    background-color:yellow;
+}
+#random{
+    background:linear-gradient(
+        to right,
+        purple 0%,
+        orange 25%,
+        aqua 50%,
+        pink 75%,
+        paleturquoise 100%
+        );   
+}
+
+.buttons{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    display: block;
+    margin:auto;
+    width: 20%;
+    padding-bottom: 1.5%;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.bold-color, .color{
+    display: inline-block;
+}
